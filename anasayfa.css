@@ -1,0 +1,54 @@
+body{
+    background-image: url(/HD-wallpaper-white-hexagon-geometric-shapes-white-aesthetic.jpg);
+}
+.kartlar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.teknoloji-kartı{
+    width: 15rem;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 1;
+}
+.teknoloji-kartı img{
+    width: 100%;
+    height: 120px;
+}
+.teknoloji{
+    background-color: rgb(54, 37, 207);
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+}
+.yazılım{
+    background-color: rgb(36, 194, 194);
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+}
+.kart-foto{
+    position: relative;
+}
+.kart-foto span{
+    position: absolute;
+    left: 0;
+    transition: 0.3s;
+}
+span:hover{
+    padding-left: 9px;
+}
+.baslık{
+    border-left: 8px solid rgb(54, 37, 207);
+    margin-left: 9rem;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.baslık2{
+    border-left: 8px solid rgb(36, 194, 194);
+    margin-left: 9rem;
+    margin-top: 10px;
+    padding: 10px;
+}

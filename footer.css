@@ -1,0 +1,26 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    background-color: #f1f1f1;
+    border-top: 4px solid #ccc;
+}
+.footer a{
+    text-decoration: none;
+    transition: 0.7s;
+    color: black;
+}
+.footer ul{
+    display: flex;
+    list-style-type: none;
+}
+.footer ul li{
+    padding: 2rem;
+}
+.footer li a:hover{
+    color: darkcyan;
+    letter-spacing: 2px;
+}
+.footer ul a{
+    margin-left: 8px;
+}
